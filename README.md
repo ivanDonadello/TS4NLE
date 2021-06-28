@@ -1,4 +1,6 @@
 # ExplanationsGraph
+The code has been developed, and manteined, by [Radu Loghin](https://github.com/radu1690/Explanations)
+
 This is a simple program that retrieves the information from an explanation graph and uses [RosaeNLG](https://rosaenlg.org/) and [Pug templates](https://pugjs.org/) to generate text.  
 
 ## Installation  
