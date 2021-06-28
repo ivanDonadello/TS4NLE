@@ -1,7 +1,7 @@
 # TS4NLE: a Template System for Natural Language Explanations
 TS4NLE is converts the explanation of an eXplainable AI (XAI) system into natural language utterances comprehensible by humans. Moreover, the XAI explanation can be enhanced with a domain and a user model that allow the natural language rendering to be tailored to the particular user. The code has been developed, and manteined, by [Radu Loghin](https://github.com/radu1690/Explanations)
 
-TS4NLE has been tested with real users for providing persuasive explanations for the adherance to the Mediterranean diet, see the main paper [here](https://www.sciencedirect.com/science/article/pii/S0933365719310140) and the [SEMEX4ALL tutorial](https://horus-ai.fbk.eu/semex4all/) at [ISWC2020](https://iswc2020.semanticweb.org/program/tutorials/). A detailed Colab tutorial can be found [here](https://colab.research.google.com/drive/1iCVSt7TFMruSzeg5DswLOzOR1n7xATbz?usp=sharing)
+TS4NLE has been tested with real users for providing persuasive explanations for the adherance to the Mediterranean diet, see the main paper [here](https://www.sciencedirect.com/science/article/pii/S0933365719310140) and the [SEMEX4ALL tutorial](https://horus-ai.fbk.eu/semex4all/) at [ISWC2020](https://iswc2020.semanticweb.org/program/tutorials/). An extended version of this Readme can be found in this detailed [Colab tutorial](https://colab.research.google.com/drive/1iCVSt7TFMruSzeg5DswLOzOR1n7xATbz?usp=sharing)
 
 
 ## Installation
@@ -27,7 +27,7 @@ node explanations.js templates/italian/feedback.pug graphs/exp_graph_1_it.csv it
 ```  
 with output "Hai consumato una grande quantità di carne rossa (3 su un massimo di 2)".
 
-You can also generate a visual reppresentation of a graph with [Graphviz](https://graphviz.org/) with:
+You can also generate a visual reppresentation of a graph with Graphviz with:
 ```
 python csv2graphviz.py <graph.csv>
 ```  
