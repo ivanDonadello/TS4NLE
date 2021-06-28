@@ -5,8 +5,12 @@ TS4NLE has been tested with real users for providing persuasive explanations for
 
 
 ## Installation
-The source code of TS4NLE can be retrieved [here](https://github.com/ivanDonadello/TS4NLE). It requires Node.js and Python languages and it is mainly based on [RosaeNLG](https://rosaenlg.org/): a Natural Language Generation library for node.js, based on the [Pug template engine](https://pugjs.org/). Once Node.js, Python and the nmp package manager have been installed, TS4NLE can be easily installed by installing, as first step, the [Graphviz](https://graphviz.org/) library for graph visualization.
-
+TS4NLE requires Node.js and Python languages and it is mainly based on [RosaeNLG](https://rosaenlg.org/): a Natural Language Generation library for node.js, based on the [Pug template engine](https://pugjs.org/). Once Node.js, Python, the [Graphviz](https://graphviz.org/) library and the nmp package manager have been installed, TS4NLE can be easily installed with:
+```
+git clone https://github.com/radu1690/Explanations.git
+cd Explanations
+npm install
+```
 
 ## Run
 You can run TS4NLE with:  
